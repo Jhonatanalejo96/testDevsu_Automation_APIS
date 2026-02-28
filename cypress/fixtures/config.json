@@ -1,0 +1,12 @@
+{
+  "url": "https://www.saucedemo.com/",
+  "Credenciales": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "datosVerificación": {
+    "firstName": "Jhonatan",
+    "lastName": "Piza",
+    "postalcode": "110111"
+  }
+}

@@ -1,0 +1,14 @@
+CONCLUSIONES Y HALLAZGOS
+
+PRUEBA FLUJO DE COMPRA - PÁGINA SAUCEDEMO (OPCIÓN 2)
+    Para esta prueba E2E quise implementar la busqueda random de los productos que se iban a agregar al carrito de compras, 
+    guarde los datos importantes como nombre, descripción y precio. Para poder hacer la validacion de estos datos en la 
+    página del carro de compras, y en la página del resumen de compra. Además comparé los precios guardados con los precios 
+    totales con taxes y sin taxes. Uno de ls hallazgos que encontre fue que al comparar los precios guardados con la cantidad 
+    de decimales, me estaba saliendo un error ya que podian no coincidir. Sin embargo estableci que al comparar las operaciones
+    con dos decimales los valores coincidian.
+
+PRUEBAS APIS - PET STORE (OPCIÓN 2)
+    En esta prueba revise la documentación de Swagger que estaba en la página, despues cree los servicios en postman, y cuando
+    vi que funcionaban los recree en Cypress. Encontre que las apis devuelven correctamente los codigos de error cuando realice 
+    las pruebas negativas y asi mismo que respondian correctamente cuando enviaba valores validos.

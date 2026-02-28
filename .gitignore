@@ -1,0 +1,13 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+
+# Reportes de Cypress
+cypress/reports/
+cypress/videos/
+cypress/screenshots/
+
+# Archivos temporales
+*.log
